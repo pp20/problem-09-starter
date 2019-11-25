@@ -16,7 +16,7 @@ cd /path/to/problem-set
 jest problem-part-1
 ```
 
-You'll need to run the tests from the **root directory** (not inside of the `problem-bc` folder).
+**TRIPLE IMPORTANT!!** You'll need to run the tests from the **root directory** (not inside of the `problem-b` folder).
 
 ## Running the Program
 Because this app is created with React (and scaffolded through [Create React App](https://github.com/facebook/create-react-app)), you will need to install dependencies and run a developer web server in order to transpile and view the application. You can run this server by using the command:
@@ -86,7 +86,7 @@ To complete the exercise, you will need to edit the included **`src/index.js`** 
     
     Now when you sign up the user (or refresh the page), you should see an example welcome message! Note that this message is _conditionally rendered_ based on **`this.state.user`**, so be sure you have updated that state variable correctly!
 
-4. Now that users can sign up, you should also make sure they can sign in and out again. Fill in the App's **`handleSignIn()`** and **`handleSignOu()`** methods to provide this functionality:
+4. Now that users can sign up, you should also make sure they can sign in and out again. Fill in the App's **`handleSignIn()`** and **`handleSignOut()`** methods to provide this functionality:
 
     - In `handleSignIn()`, you should call `firebase.auth().signInWithEmailAndPassword()`, passing in the given `email` and `password`. Again, you should `.catch()` any errors and assign their `message` to the **`errorMessage`** property of the state.
 
