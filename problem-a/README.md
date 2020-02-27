@@ -1,4 +1,4 @@
-# Problem A
+# Problem: Adoption Routes
 
 In this exercise, you will practice implementing _client-side routing_ using [React Router](https://reacttraining.com/react-router/). Specifically, you will be turning a version of the previous "Pet Adoption" exercise into a single-page application, with separate "pages" for each pet to adopt.
 
